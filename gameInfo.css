@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 1em;
+}
+
+header nav #logo {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+}
+
+aside {
+    width: 200px;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#category-list {
+    list-style: none;
+    padding: 0;
+}
+
+#category-list li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#game-list {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.game-card {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.game-card img {
+    max-width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+#game-details {
+    padding: 20px;
+}
