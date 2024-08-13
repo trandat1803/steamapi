@@ -3,33 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steam Clone</title>
-    <link rel="stylesheet" href="gameInfo.css">
+    <title>Game Info</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div id="logo">Steam</div>
-            <ul>
-                <li><a href="#" id="home">Home</a></li>
-                <li><a href="#">Trending</a></li>
-                <li><a href="#">About Us</a></li>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="https://help.steampowered.com/public/shared/images/responsive/header_logo.png" alt="Steam Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
             </ul>
         </nav>
     </header>
-
-    <div class="container">
-        <aside>
-            <input type="text" id="search" placeholder="Search...">
-            <ul id="category-list"></ul>
-        </aside>
-
-        <main>
-            <div id="game-list"></div>
-            <div id="game-details" class="hidden"></div>
-        </main>
+    <div class="main-content">
+        <section class="game-info">
+            
+        </section>
     </div>
-
-    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2024 Steam. All rights reserved.</p>
+    </footer>
+    <script src="game-info.js"></script>
 </body>
 </html>
