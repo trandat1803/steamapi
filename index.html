@@ -22,24 +22,18 @@
     <div class="main-content">
         <aside class="sidebar">
             <div class="search-bar">
-                <input type="text" placeholder="Search games...">
-                <button>Search</button>
-            </div>
+                <input type="text" id="search-input" placeholder="Search games...">
+                <button id="search-btn">Search</button>
+            </div>            
             <h2>Categories</h2>
-            <ul>
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Adventure</a></li>
-                <li><a href="#">RPG</a></li>
-                <li><a href="#">Strategy</a></li>
-                <li><a href="#">Simulation</a></li>
-                <li><a href="#">Sports</a></li>
-                <li><a href="#">Indie</a></li>
+            <ul id="categories-list">
+                <!-- Categories will be dynamically populated here -->
             </ul>
         </aside>
         <section class="content">
             <h2>Featured Games</h2>
             <div class="game-grid">
-                <!-- Game cards will be generated here -->
+                <!-- Game cards created here -->
             </div>
         </section>
     </div>
